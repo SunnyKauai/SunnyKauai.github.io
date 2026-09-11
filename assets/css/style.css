@@ -220,6 +220,7 @@ a:focus-visible {
 .hero {
   position: relative;
   min-height: 100vh;
+  min-height: 100svh;
   display: flex;
   align-items: center;
   padding: 110px 0 90px;
@@ -555,25 +556,35 @@ a:focus-visible {
   margin-top: 6px;
 }
 
-.contact-mail {
-  margin-top: 22px;
-  display: inline-block;
-  font-family: var(--mono);
-  font-size: clamp(1.1rem, 3.2vw, 1.45rem);
-  font-weight: 600;
-  color: var(--text);
-  text-decoration: none;
-  padding-bottom: 6px;
-  background-image: var(--grad);
-  background-size: 0% 2px;
-  background-position: 0 100%;
-  background-repeat: no-repeat;
-  transition: background-size .4s cubic-bezier(.22, 1, .36, 1), color .3s;
+.contact-links {
+  margin-top: 24px;
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
-.contact-mail:hover {
-  background-size: 100% 2px;
+.contact-pill {
+  padding: .6em 1.4em;
+  border-radius: 999px;
+  border: 1px solid var(--line);
+  background: var(--card);
+  color: var(--text-dim);
+  font-size: .9rem;
+  font-weight: 600;
+  text-decoration: none;
+  transition:
+    transform .3s cubic-bezier(.22, 1, .36, 1),
+    border-color .3s,
+    color .3s,
+    box-shadow .3s;
+}
+
+.contact-pill:hover {
+  transform: translateY(-2px);
+  border-color: var(--accent);
   color: var(--accent);
+  box-shadow: var(--shadow-sm);
 }
 
 /* ---------- 页脚 ---------- */
