@@ -474,7 +474,7 @@ a:focus-visible {
 /* ---------- 找到我 ---------- */
 .card-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(215px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(195px, 1fr));
   gap: 18px;
   margin-top: 14px;
 }
