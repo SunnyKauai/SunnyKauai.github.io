@@ -543,50 +543,6 @@ a:focus-visible {
   color: var(--accent);
 }
 
-/* ---------- 联系我 ---------- */
-.contact-inner {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  text-align: center;
-}
-
-.contact-desc {
-  color: var(--text-dim);
-  margin-top: 6px;
-}
-
-.contact-links {
-  margin-top: 24px;
-  display: flex;
-  gap: 12px;
-  flex-wrap: wrap;
-  justify-content: center;
-}
-
-.contact-pill {
-  padding: .6em 1.4em;
-  border-radius: 999px;
-  border: 1px solid var(--line);
-  background: var(--card);
-  color: var(--text-dim);
-  font-size: .9rem;
-  font-weight: 600;
-  text-decoration: none;
-  transition:
-    transform .3s cubic-bezier(.22, 1, .36, 1),
-    border-color .3s,
-    color .3s,
-    box-shadow .3s;
-}
-
-.contact-pill:hover {
-  transform: translateY(-2px);
-  border-color: var(--accent);
-  color: var(--accent);
-  box-shadow: var(--shadow-sm);
-}
-
 /* ---------- 页脚 ---------- */
 .foot {
   display: flex;
