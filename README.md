@@ -93,12 +93,6 @@ npx serve .
 
 页面图标均为内联 SVG，统一使用 `currentColor`，改配色时只需调整 CSS 变量。
 
-## 版权
-
-本站文字、图片与代码由站主保留权利，未经允许请勿转载或另作他用。
-
----
-
 <div align="center">
 
 Made with **DeepSeek Harness** ✦
